@@ -1,0 +1,18 @@
+# Basic provisioning example
+- name: Ansible test
+  hosts: localhost
+  tasks:
+  - name: launching AWS instance using Ansible
+    ec2:
+      key_name: ansible
+      instance_type: t2.micro
+      image: ami-09e67e426f25ce0d7
+      region: us-east-1
+      wait: yes
+      group: ansible
+      count: 1
+      vpc_subnet_id: subnet-02a60909454c28d07
+      assign_public_ip: yes
+      aws_access_key: ASIAXGLWUMQR37GETHHU
+      aws_secret_key: +CuWIv38OC0g042CRWODuj8gdijazrBiuNwg5NpZ
+      security_token: FwoGZXIvYXdzEEUaDL4azVAMDC5Feq0qwCKzAdLTw/tk14srOVNbkl3GLZCu86xeUufZs2UBIO7QQ5plc8gWNBQrlZTS8QB/4Vft5cl6njTk9nYFh5J2jckkagVPVCgJBuDgh+GRaeLKfkAXH4A7O19DXJswMUZ2NDwMNsNYwk+letxNkiimg/IMdJsfkQwdXi3msroKu0mhUpyQR4WcMo8HHAa26Yuw+1WT/uCupG2u+JqJBRiNDwMWOzQmNtt5OzBUEun39Cp4toI8tURhKMnT2YkGMi1AP+lkKWT0ShyE2YL0TNBGnbfsWbX4ToKBKYzEOTOHwJxIz9zI41O1Y93MWQM=
