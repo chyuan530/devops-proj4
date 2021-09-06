@@ -19,14 +19,14 @@ pipeline {
     stage('Test') {
       steps{
         withMaven {
-          sh 'mvn test -DskipTests=false'
+          sh 'mvn test'
         }
       }
     }
     stage('Package') {
       steps{
         withMaven {
-          sh 'mvn package'
+          sh 'mvn package -DskipTests=true'
         }
       }
     }
