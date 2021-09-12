@@ -11,8 +11,8 @@
       wait: yes
       group: ansible
       count: 1
-      vpc_subnet_id: subnet-02a60909454c28d07
+      vpc_subnet_id: subnet-05a3f12c93e6692f1
       assign_public_ip: yes
-      aws_access_key: ASIAXGLWUMQR37GETHHU
-      aws_secret_key: +CuWIv38OC0g042CRWODuj8gdijazrBiuNwg5NpZ
-      security_token: FwoGZXIvYXdzEEUaDL4azVAMDC5Feq0qwCKzAdLTw/tk14srOVNbkl3GLZCu86xeUufZs2UBIO7QQ5plc8gWNBQrlZTS8QB/4Vft5cl6njTk9nYFh5J2jckkagVPVCgJBuDgh+GRaeLKfkAXH4A7O19DXJswMUZ2NDwMNsNYwk+letxNkiimg/IMdJsfkQwdXi3msroKu0mhUpyQR4WcMo8HHAa26Yuw+1WT/uCupG2u+JqJBRiNDwMWOzQmNtt5OzBUEun39Cp4toI8tURhKMnT2YkGMi1AP+lkKWT0ShyE2YL0TNBGnbfsWbX4ToKBKYzEOTOHwJxIz9zI41O1Y93MWQM=
+      aws_access_key: ASIAXGLWUMQR2VDUNMGZ
+      aws_secret_key: ZLCOR55sxlw4MPHdt+lK0m0KSoOAb77fkTMjnhKn
+      security_token: FwoGZXIvYXdzENX//////////wEaDKs/vQjmeHNnvkVqriKzAW2dvZq/fPiWCH+ZyJKEjeOpim6fddzUeqB+IZw7qS3Qn0dbNCTdt1K2weTMQhOCovsDRJGEnIet/5aF4Z7U3x/dlzOdZygMlChqdB7W2W6DsMzRVHqIE986ZVbdZ6iyYu5LqbHRmKVLWMOqlYycgqnNq80J84FxwpWV9KCx2+EmPAW6ZTPhn3Dm8CGMdG349PdtZg3nsdOFMZdd3c8+PmOAhHqkckOkFZ8neGrT4oiEvgazKPWs+YkGMi1uaD0rHdPLbxT/UantB8rN91ceoeXechKexeJBVEuEBApbvUCXNoSo9VPZCOg=
