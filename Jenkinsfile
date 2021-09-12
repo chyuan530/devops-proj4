@@ -32,7 +32,7 @@ pipeline {
     }
     stage('Deploy AWS') {
       steps{
-        ansiblePlaybook(playbook: 'aws_deploy.yml')
+        ansiblePlaybook(playbook: 'aws_deploy.yml', credentialsId: 'aws')
       }
     }
   }
