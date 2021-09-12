@@ -13,5 +13,6 @@
         remote_src: no
     - name: stop running web service
       shell: "pkill -9 java"
+      ignore_errors: yes
     - name: start web service
       shell: nohup java -jar webapp/devops-0.0.1-SNAPSHOT.jar &
