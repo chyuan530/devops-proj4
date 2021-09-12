@@ -30,6 +30,11 @@ pipeline {
         }
       }
     }
+    stage('Deploy AWS') {
+      steps{
+        ansiblePlaybook(playbook: '/home/chyuan/git/devops-proj4/aws_deploy.yml')
+      }
+    }
   }
   post {
       always {
